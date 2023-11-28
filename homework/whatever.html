@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <title>臺中市立文化中心</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+
+        body {
+            background: #003;
+        }
+
+        .page {
+            margin: 20px;
+            border: 20px #fff solid;
+            background: yellow;
+            height: 1200px;
+        }
+		
+        del{
+          text-decoration-color:red;
+      	}
+        
+      	ins {
+      		text-decoration: none;
+      		color:blue;
+      		font-size:1.2em;
+      	}
+       
+        header {
+            padding: 20px;
+            background: darkorange;
+            color: #fff;
+            text-align: center;
+            height: 100px;
+            font-size: 1.5em;
+            font-family:標楷體,serif;
+        }
+      
+        header p {
+            text-transform:capitalize;
+        }
+
+        article {
+            margin-left: 240px;
+        }
+
+        article * {
+            margin-top : 10px;
+        }
+      
+        artical h2 {
+            text-shadow : 3px 3px 5px gray;
+          	margin-top:20px;
+        }
+
+      article ul li {
+      	list-style:url(images/check.png) inside;
+      }
+
+        aside {
+            padding:30px;
+            background: darkblue;
+            float: left;
+            width: 140px;
+            height: 1000px;
+        }
+
+        nav p {
+            margin : 20px;
+        }
+
+        nav p a {
+            color : lightyellow;
+        }
+        footer {
+            margin-top:50px;
+            margin-left: 220px;
+          	letter-spacing :2pt;
+          	font-style:italic;
+          	font-weight:600;
+        }
+      
+      .story{
+        line-height:1.5;
+      }
+      
+      .story:first-letter{
+      	font-size:2em;
+        float:left;
+      }
+    </style>
+</head>
+<body>
+<div class="page">
+    <header>
+        <h1>臺中市大墩文化中心</h1>
+        <p>taichung city dadun cutural center</p>
+    </header>
+    <aside>
+        <nav>
+            <p><a href="#">中心介紹</a></p>
+            <p><a href="#">研習課程</a></p>
+            <p><a href="#">展演活動</a></p>
+            <p><a href="#">研習課程</a></p>
+        </nav>
+    </aside>
+    <article>
+        <h2>緣起</h2>
+        <p id="story">臺中市素有文化城之美譽，文風鼎盛，教育事業發達，社會各界對於文化活動的推展，不遺餘力。
+            民國65年，由名企業家何永先生於雙十路捐建文化中心一座，開臺灣文化中心之先鋒。
+            68年，中央政府推動12項建設，補助各縣市設立一座文化中心，本市擇於英才路600號籌建，翌年8月開工，於72年11月12日竣工啟用，
+            定名為「<del>臺中市立文化中心</del>」，後正名為「<ins>臺中市大墩文化中心</ins>」。</p>
+        <h2>便民服務</h2>
+        <ul>
+            <li>活動報名</li>
+            <li>表單下載</li>
+            <li>預約導覽</li>
+        </ul>
+        <h2>志工園地</h2>
+        <ul>
+            <li>志工服勤系統</li>
+            <li>志工管理要點</li>
+            <li>志工訊息公告</li>
+            <li>志工活動花絮</li>
+        </ul>
+        <table border="1">
+            <tr><th>館室</th>	        <th>位置</th>	    <th>開放時間</th></tr>
+            <tr><td>演講廳</td>	        <td>地下樓</td>	    <td>依節目時程開放</td></tr>
+            <tr><td>大墩藝廊一-三</td>	<td>左側一-三樓</td>	<td>每週二至週日 9:00-21:00</td></tr>
+            <tr><td>大墩藝廊四</td>	    <td>地下樓</td>	    <td>每週二至週日 9:00-21:00</td></tr>
+            <tr><td>大墩藝廊五</td>	    <td>門廳右側一樓</td>	<td>每週二至週日 9:00-21:00</td></tr>
+            <tr><td>陳列室</td>	        <td>左側一-四樓</td>	<td>每週二至週日 9:00-21:00</td></tr>
+        </table>
+    </article>
+    <footer>
+        <p>Copyright©2022 臺中市大墩文化中心</p>
+        <p>地址：403411 臺中市西區英才路600號 電話：04-23727311</p>
+    </footer>
+</div>
+</body>
+</html>
